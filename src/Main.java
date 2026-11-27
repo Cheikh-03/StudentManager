@@ -237,7 +237,7 @@ public class Main {
                 sc.nextLine(); // permet de consomme la saisie incorrecte.
             }
             else {
-                System.out.print("Veuillez saisir un nombre !");
+                System.out.print("Veuillez saisir un nombre entier !");
                 sc.nextLine();
                 choixMenu = 0;
             }
