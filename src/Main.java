@@ -7,7 +7,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 
 
-// VERSION 1
+
 public class Main {
     static int prochainNumero = 1;
 
@@ -237,7 +237,7 @@ public class Main {
                 sc.nextLine(); // permet de consomme la saisie incorrecte.
             }
             else {
-                System.out.println("Veuillez saisir un nombre !");
+                System.out.print("Veuillez saisir un nombre entier !");
                 sc.nextLine();
                 choixMenu = 0;
             }
